@@ -29,8 +29,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit some common Corvus OS stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common Titanium OS stuff.
+$(call inherit-product, vendor/titanium/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
@@ -44,13 +44,13 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.xtended.maintainer=1cecreamm
+    ro.titanium.maintainer=1cecreamm
 
-TARGET_BOOT_ANIMATION_RES := 1080
+TITANIUM_BUILD_TYPE := OFFICIAL
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := xtended_platina
+PRODUCT_NAME := titanium_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := MI 8 Lite

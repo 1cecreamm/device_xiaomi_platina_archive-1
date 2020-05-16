@@ -244,10 +244,6 @@ PRODUCT_PACKAGES += \
     ims-ext-common_system \
     ims_ext_common.xml
 
-# IMS JAR
-PRODUCT_BOOT_JARS += \
-    ims-ext-common_system
-
 # Init
 PRODUCT_PACKAGES += \
     init.class_main.sh \
@@ -545,7 +541,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
 
 # AOSP DEVICE
-PRODUCT_NAME := xtended_platina
+PRODUCT_NAME := titanium_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := Mi 8 Lite (AOSP)
 PRODUCT_BRAND := Xiaomi

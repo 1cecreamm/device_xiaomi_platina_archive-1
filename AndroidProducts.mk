@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_platina.mk
+    $(LOCAL_DIR)/titanium_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_platina-eng \
-    xtended_platina-userdebug \
-    xtended_platina-user
+    titanium_platina-eng \
+    titanium_platina-userdebug \
+    titanium_platina-user
