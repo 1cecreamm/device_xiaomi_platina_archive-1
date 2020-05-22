@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_platina.mk
+    $(LOCAL_DIR)/lineage_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_platina-eng \
-    xtended_platina-userdebug \
-    xtended_platina-user
+    lineage_platina-eng \
+    lineage_platina-userdebug \
+    lineage_platina-user
