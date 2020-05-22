@@ -338,7 +338,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay
+    $(DEVICE_PATH)/overlay \
+    $(DEVICE_PATH)/overlay-aosip
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -545,7 +546,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/xiaomi/platina/platina-vendor.mk)
 
 # AOSP DEVICE
-PRODUCT_NAME := xtended_platina
+PRODUCT_NAME := aosip_platina
 PRODUCT_DEVICE := platina
 PRODUCT_MODEL := Mi 8 Lite (AOSP)
 PRODUCT_BRAND := Xiaomi

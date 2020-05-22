@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_platina.mk
+    $(LOCAL_DIR)/aosip_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_platina-eng \
-    xtended_platina-userdebug \
-    xtended_platina-user
+    aosip_platina-eng \
+    aosip_platina-userdebug \
+    aosip_platina-user
