@@ -244,6 +244,10 @@ PRODUCT_PACKAGES += \
     ims-ext-common_system \
     ims_ext_common.xml
 
+# IMS JAR
+PRODUCT_BOOT_JARS += \
+    ims-ext-common_system
+
 # Init
 PRODUCT_PACKAGES += \
     init.class_main.sh \
