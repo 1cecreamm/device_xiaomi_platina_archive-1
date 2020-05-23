@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
 # Inherit some common Nitrogen OS stuff.
-$(call inherit-product, vendor/nitrogen/config/common.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="platina" \
