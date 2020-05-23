@@ -22,9 +22,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_platina.mk
+    $(LOCAL_DIR)/nitrogen_platina.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_platina-eng \
-    xtended_platina-userdebug \
-    xtended_platina-user
+    nitrogen_platina-eng \
+    nitrogen_platina-userdebug \
+    nitrogen_platina-user
