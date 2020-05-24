@@ -257,3 +257,7 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 -include vendor/xiaomi/platina/BoardConfigVendor.mk
+
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/display
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/audio
+PRODUCT_SOONG_NAMESPACES += hardware/qcom-caf/msm8998/media
