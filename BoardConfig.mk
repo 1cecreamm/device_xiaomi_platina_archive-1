@@ -226,7 +226,7 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 BOARD_USES_QC_TIME_SERVICES := true
 
 # Use mke2fs to create ext4 images
-TARGET_USES_MKE2FS := true
+#TARGET_USES_MKE2FS := true
 
 # VNDK
 BOARD_VNDK_VERSION := current
